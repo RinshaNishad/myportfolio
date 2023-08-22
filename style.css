@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins:wght@200&family=Rowdies:wght@300&display=swap');
+
+:root{
+    --red: rgb(196, 25, 25);
+    --white: white;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #000814;
+    color: var(--white);
+    /* font-family: 'Dosis', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+    font-family: 'Rowdies', cursive;
+}
+.nav-item a{
+    color: var(--white);
+}
+.nav-item a:hover{
+    color: rgb(196, 25, 25);
+}
+
+.h-5{
+    min-height: 450px;
+}
+.profile{
+    width: 50%;
+    margin: 15px;
+    filter: drop-shadow(10px 10px 70px rgb(88, 86, 86)) ;
+}
+.card img{
+    height: 300px;
+    
+}
+.title{
+    color: red;
+    text-align: center;
+}
+.icons i{
+    margin-left: 5px;
+    color:var(--red);
+}
